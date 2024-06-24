@@ -1,0 +1,4 @@
+<div class="container">
+  <app-filter (filterChange)="onFilterChange($event)"></app-filter>
+  <app-customer-table [location]="location" [industry]="industry" [search]="search"></app-customer-table>
+</div>
